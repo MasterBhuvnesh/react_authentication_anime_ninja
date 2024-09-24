@@ -23,7 +23,7 @@ function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { isAuthenticated } = useAuth0();
   return (
-    <div className="bg-white font-poppins bg-gradient-to-r from-blue-500">
+    <div className="bg-white font-poppins ">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
           aria-label="Global"
