@@ -35,15 +35,22 @@ module.exports = {
 };
 ```
 
-````html
+```html
 <link
   href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
   rel="stylesheet"
 />
-``` ## Add the Tailwind directives to your CSS **Add the `@tailwind` directives
-for each of Tailwind’s layers to your `./src/index.css` file.** ```css @tailwind
-base; @tailwind components; @tailwind utilities;
-````
+```
+
+## Add the Tailwind directives to your CSS
+
+**Add the `@tailwind` directives for each of Tailwind’s layers to your `./src/index.css` file.**
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
 ## Start your build process
 
